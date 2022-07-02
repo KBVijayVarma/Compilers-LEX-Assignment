@@ -1,0 +1,5 @@
+a2-a4 h7-h5
+a4-a5 h5-h4
+a5-a6 h4-h3
+a6xb7 h3xg2
+b7xa8=Q g2xf1=N

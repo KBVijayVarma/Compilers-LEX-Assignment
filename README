@@ -1,0 +1,32 @@
+Roll No.: AI20BTECH11012
+Name: KANUMURI BHEEMESWARA VIJAY VARMA
+
+--------------------------------------------------------------------------------
+
+P1: Chess
+---------
+Assumptions / Comments (if any):
+I am working on a Windows machine. So there are some problems if run on a Linux machine.
+I checked my code using del since rm is not there in Windows. I did not change any other contents in this directory.
+Like del in place of rm in MakeFile, Compiling the out file is down by p1\p1.out, Input from text file is taken Manually.
+# Is the program complete? Are there any assumptions made? Any other comments?
+The Program is complete for possible Test Cases. I gave 2 Test Cases. I could not redirect input from the text file
+on Windows.
+So, I took Input from the Terminal Manually. Input is stopped by clicking Ctrl+Z in Terminal.
+Approach :
+# How do you solve this problem?
+I first created a char array of size 8*8 which represents each place in the board. First, the char array is 
+Initialised(using initialize function).For every matched input, the update function is called and the char 
+array is updated based on the moves for both white and black. The update is designed for normal capturing, 
+empty space occupying and also for updating pawn to Queen/B/R/N when in the last or first row. 
+Then after the END of Input, the board is printed in required format(using print_board).
+
+P2: Calculator
+--------------
+Assumptions / Comments (if any):
+NA
+# Is the program complete? Are there any assumptions made? Any other comments?
+NA
+Approach :
+# How do you solve this problem?
+NA
